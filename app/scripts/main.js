@@ -4,3 +4,14 @@ const evenNumbers = numbers => numbers.reduce((acc, num) => {
     if(num % 2 === 0) { acc.push(num) };
     return acc;
 }, [])
+
+const people = [
+    {
+        name: Will,
+        age: 26
+    },
+    {
+        name: Michael,
+        age: 26
+    }
+]
